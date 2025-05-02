@@ -1,0 +1,21 @@
+{
+  "name": "monero_support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --loader ts-node/esm src/derive-keys.ts",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",  
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "monero-ts": "^0.11.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
